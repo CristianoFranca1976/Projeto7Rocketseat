@@ -66,6 +66,10 @@ nav {
   align-items: left;
   margin: 36px 112.47px 64.2px 115px;
   background: #f5f5f5;
+  
+}
+img {
+  cursor: pointer;
 }
 h1 {
   width: 83px;
@@ -181,20 +185,19 @@ footer {
   }
 }
 @keyframes myAnim1 {
-	0% {
-		box-shadow: 0 0 0 0 white;
-	}
+  0% {
+    box-shadow: 0 0 0 0 white;
+  }
 
-	100% {
-		box-shadow: 5px 5px 50px 20px white;
-	}
+  100% {
+    box-shadow: 5px 5px 50px 20px white;
+  }
 }
 @media only screen and (max-width: 1480px) {
-    body {
-        margin: 0;
-        height: auto;
-        
-    }
+  body {
+    margin: 0;
+    height: auto;
+  }
   #descktop {
     width: auto;
     height: auto;
@@ -202,7 +205,7 @@ footer {
   }
   nav {
     width: auto;
-    border-radius:  20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
     flex-direction: column;
     gap: 20px;
   }
@@ -214,7 +217,7 @@ footer {
   #bottom {
     flex-direction: column;
   }
-  footer  {
+  footer {
     border-radius: 0 0 20px 20px;
   }
   #center {
@@ -223,5 +226,19 @@ footer {
   h1 {
     margin-bottom: 40px;
   }
- 
+}
+#nomeReturn {
+  position: relative;
+  top: 50%;
+  left: 39%;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181515;
+  background: #8d8d999a;
+  display: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }

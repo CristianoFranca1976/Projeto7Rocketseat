@@ -18,39 +18,47 @@
   </head>
   <body>
     <div id="descktop">
+      <div id="nomeReturn" onclick="resetPagina()">
+        <button type="reset" onclick="resetPagina()">X</button>
+      </div>
       <header>
         <nav>
           <img src="assets/camera.svg" alt="logo camera" id="camera" />
-          <a href="#" id="home">Home</a>
-          <a href="#" id="galeria">Galeria</a>
+          <a href="#camera" id="home">Home</a>
+          <a href="#center" id="galeria">Galeria</a>
           <input
             type="search"
             name="search"
             id="search"
             placeholder="Pesquise por imagens e coleções"
           />
-          <img src="assets/avatar-depois.png" alt="foto self" id="self" />
+          <a
+            href="https://new-porfolio-smoky.vercel.app/"
+            title="See my Portfolio"
+          >
+            <img src="assets/avatar-depois.png" alt="foto self" id="self" />
+          </a>
         </nav>
       </header>
       <div id="center">
         <h1>Galeria</h1>
         <div id="top">
           <div class="card1 cards">
-            <img src="assets/imagem1.png" alt="imagem1" />
+            <img src="assets/imagem1.png" alt="imagem1" class="imagemAnime"/>
             <div class="boxText">
               <p>Workspace elétrica</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card2 cards">
-            <img src="assets/imagem2.png" alt="imagem2" />
+            <img src="assets/imagem2.png" alt="imagem2" class="imagemAnime"/>
             <div class="boxText">
               <p>Dark and red</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card3 cards">
-            <img src="assets/imagem3.png" alt="imagem3" />
+            <img src="assets/imagem3.png" alt="imagem3" class="imagemAnime"/>
             <div class="boxText">
               <p>Organização e grids</p>
               <a href="#" class="tag">TAG</a>
@@ -59,21 +67,21 @@
         </div>
         <div id="midle">
           <div class="card4 cards">
-            <img src="assets/imagem4.png" alt="imagem4" />
+            <img src="assets/imagem4.png" alt="imagem4" class="imagemAnime" onmouseover="myMove()"/>
             <div class="boxText">
               <p>Colméia</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card5 cards">
-            <img src="assets/imagem5.png" alt="imagem5" />
+            <img src="assets/imagem5.png" alt="imagem5" class="imagemAnime"/>
             <div class="boxText">
               <p>Setup de escritor</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card6 cards">
-            <img src="assets/imagem6.png" alt="imagem6" />
+            <img src="assets/imagem6.png" alt="imagem6" class="imagemAnime"/>
             <div class="boxText">
               <p>Ergonomia e cores</p>
               <a href="#" class="tag">TAG</a>
@@ -82,21 +90,21 @@
         </div>
         <div id="bottom">
           <div class="card7 cards">
-            <img src="assets/imagem7.png" alt="imagem7" />
+            <img src="assets/imagem7.png" alt="imagem7" class="imagemAnime"/>
             <div class="boxText">
               <p>Show de luzes</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card8 cards">
-            <img src="assets/imagem8.png" alt="imagem8" />
+            <img src="assets/imagem8.png" alt="imagem8" class="imagemAnime"/>
             <div class="boxText">
               <p>Deep purple</p>
               <a href="#" class="tag">TAG</a>
             </div>
           </div>
           <div class="card9 cards">
-            <img src="assets/imagem9.png" alt="imagem9" />
+            <img src="assets/imagem9.png" alt="imagem9" class="imagemAnime"/>
             <div class="boxText">
               <p>Multi-Screen</p>
               <a href="#" class="tag">TAG</a>
@@ -118,3 +126,4 @@
     <script src="javascript.js"></script>
   </body>
 </html>
+
